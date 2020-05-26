@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Sandwhich</title>
+</head>
+<body>
+    <div>
+        <h2> String Sandwhich</h2>
+        <div>
+            <label for="bread">Bread & Butter</label>
+            <input type="text" name="bread" id="bread">
+            <label for="filling">PB&J or Turkey ?</label>
+            <input type="text" name="filling" id="filling">
+
+        </div>
+
+        <div>
+            <button type="button" name="mas" onclick="makeAstrSandwhich(bread, filling)" class="btn btn-primary btn-lg btn-block">Make ME A Sandwhich</button>
+            <hr>
+            <span id="fillingtype"></span><span> into </span><span id="breadtype"></span>
+            <span id="strSand"></span>
+            
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
